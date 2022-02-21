@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 int main (void )
 {
     int k, m, i, j; //Linha,Coluna 
