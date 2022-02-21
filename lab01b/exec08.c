@@ -29,4 +29,4 @@ void transposta(int a[LIM][LIM], int at[LIM][LIM], int m, int n)
      }
      else printf("Matriz excessivamente grande!\n");
      return 0;
- 
+ }
