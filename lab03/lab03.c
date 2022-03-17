@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct {
+typedef struct DadoPessoa {
     char nome[50];
     int idade;
     float altura;
-}PESSOA;
+};
 
 int comparacao(const void *pessoa1, const void pessoa2)
 {
-    float pess1 = ((PESSOA)pessoa1)->altura;
-    float pess2 = ((PESSOA)pessoa2)->altura;
+    float pess1 = ((DadoPessoa)pessoa1)->altura;
+    float pess2 = ((DadoPessoa)pessoa2)->altura;
     if (pess1 < pess2) return -1;
     if (pess1 > pess2) return 1;
     return 0;
@@ -18,8 +18,8 @@ int comparacao(const void *pessoa1, const void pessoa2)
 
 int main()
 {
-    struct PESSOA array[10];
-    FILE fptr;
+    struct DadoPessoa array[10];
+    FILE * fptr;
     fptr = fopen("./dadospessoas.txt", "r");
     if (fptr == NULL) 
     {
@@ -27,6 +27,7 @@ int main()
         exit(1);
     }
     int x = 0;
+    int y=0;
     while (!feof(fptr))
     {
         fscanf(fptr, "%s", array[x].nome);
@@ -35,7 +36,7 @@ int main()
         x++;
     }
 
-    qsort(array, sizeof(PESSOA), comparacao);
+    qsort(array, sizeof(DadoPessoa), comparacao);
     for (int y = 0, y < x - 1; y++) 
     {
         printf("Nome %s", array[y].nome);
@@ -45,4 +46,4 @@ int main()
     fclose(fptr);
     return 0;
 
-}
+
