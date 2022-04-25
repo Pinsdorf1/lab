@@ -26,7 +26,7 @@ int main()
     fact = fact*i;
     soma = soma + (pow(x,i)/fact) ;
     }
-    soma= soma +1; //Since series starts with 1
+    soma= soma +1; 
 
     printf("\nSoma da série (aproximado) de Taylor: %.2f\n\n",soma);
 
