@@ -9,7 +9,7 @@
 
 int main()
 {
-  int x,i;
+  int x,y;
   int fact = 1,n;
   float soma=0;
 
@@ -21,12 +21,12 @@ int main()
   //Exemplo 1/1 seria 2 (ou seja, dois números a serem divididos) a ser digitado, como na série são 10 valores que seriam somados, então o código já identifica que será a seguir série: 1/1 + 1/2 + 1/3 + 1/4 ...  1/T
   scanf("%d",&n);
 
-  for(i=1;i<n;i++)
+  for(y=1;y<n;y++)
   {
-    fact = fact*i;
-    soma = soma + (pow(x,i)/fact) ;
+    fact = fact*y;
+    soma = soma + (pow(x,y)/fact) ;
     }
-    soma= soma +1; 
+    soma= soma +1; //Since series starts with 1
 
     printf("\nSoma da série (aproximado) de Taylor: %.2f\n\n",soma);
 
