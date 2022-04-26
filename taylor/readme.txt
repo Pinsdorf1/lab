@@ -10,8 +10,5 @@ Conforme o requisitado, o código realiza a soma infinitesimal de uma série de 
 
 Print da Compilação do código: 
 
-Digite quantos valores serão para ln(T):10
-
-Digite quantos valores a série tem:2
-
-Soma da série (aproximado) de Taylor: 11.00 
+Código que envolve a soma infinitesimal para solução de ln(10) em séries de Taylor
+O resultado é: 2.928968
