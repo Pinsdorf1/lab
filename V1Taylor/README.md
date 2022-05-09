@@ -10,7 +10,7 @@ Conforme o requisitado, o código realiza a soma infinitesimal de uma série de 
 
 Compilando o programa! 
 
-Resultado =  5.177377517639621 
+Resultado = 5.1824524989053415
 
 Speedup:  0.04266166687011719 segundos ( no caso o speedup pode variar, aqui é só um exemplo) 
 
