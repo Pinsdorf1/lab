@@ -15,3 +15,5 @@ Resultado = 5.1824524989053415
 Speedup:  0.04266166687011719 segundos ( no caso o speedup pode variar, aqui é só um exemplo) 
 
 Nosso código realiza o T = 100 em 3 threads. Portanto comparando nossa primeira versão serial, com essa utilizando thread, o tempo de execução é mais veloz com threads. 
+
+A versão serial é o arquivo 'somataylor.c', e a versão utilizando threads está chamado de 'v1projtaylor.py'. 
