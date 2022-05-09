@@ -1,6 +1,7 @@
 '''Código em python usando thread para executar o T=100 de uma série de taylor '''
 #Calebe de Sa Ferreira | TIA: 32088116  
 #Mateus de Pasquali da Silva | TIA: 32086997
+#Nicolas Pinsdorf | TIA: 32036108
 
 from threading import Thread
 import concurrent.futures
