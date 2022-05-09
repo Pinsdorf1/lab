@@ -14,4 +14,4 @@ Resultado =  5.177377517639621
 
 Speedup:  0.04266166687011719 segundos ( no caso o speedup pode variar, aqui é só um exemplo) 
 
-Nosso código realiza o T = 100 em uma só thread. Portanto o speedup será veloz.
+Nosso código realiza o T = 100 em 3 threads. Portanto comparando nossa primeira versão serial, com essa utilizando thread, o tempo de execução é mais veloz com threads. 
