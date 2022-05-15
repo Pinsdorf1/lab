@@ -11,7 +11,8 @@ Primeiro fizemos o time ./somataylor ( código serial) :
 Tempo serial: 0m31,207s
 
 Após testamos o código com a versão paralela utilizando o OpenMP com e sem # pragma omp critical
+./projv2taylor 6
+./projv2taylorwithoutcritical 6
 
 Tempo paralelo com # pragma omp critical com 6 threads: 0m13,553s
 Tempo paralelo sem # pragma omp critical com 6 threads: 0m9,211s → Melhor tempo
-
