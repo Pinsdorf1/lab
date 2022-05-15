@@ -1,4 +1,4 @@
-Controle de acesso à região crítica para a variável global compartilhada
+# Controle de acesso à região crítica para a variável global compartilhada
 
 Nossa variável compartilhada é o resultado final.
 Utilizamos o #pragma omp critical em um dos códigos para evitar a condição de corrida. A qual acontece quando há possibilidade de resultados imprevisíveis ocorrerem na execução de duas ou mais threads simultaneamente. Desta forma somente uma thread pode executar o bloco estruturado por vez. Então, se uma thread está em uma seção crítica, nenhuma outra thread pode estar na mesma seção crítica.
