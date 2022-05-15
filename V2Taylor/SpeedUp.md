@@ -1,4 +1,4 @@
-#SpeedUp 
+# SpeedUp 
 
 SpeedUp = Tempo serial / Tempo paralelo 
 
