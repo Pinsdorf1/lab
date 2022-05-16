@@ -11,12 +11,14 @@ int main(void)
   double i;
   double sum = 0;
 
-  for (i = 1; i<=10000000000; i++)
+  for (i = 1; i<=1000000000; i++) //ln(1000000000), ou seja, soma infinitesimal de Taylor até T = 1000000000
     {
     sum+=1/(double)i;
     }
   printf("Código que envolve a soma infinitesimal para solução de ln(10) em séries de Taylor\n");
-  printf("O resultado é: %.3f", sum);
+  printf("O resultado é: %f", sum);
 
 return 0;
 }
+
+
