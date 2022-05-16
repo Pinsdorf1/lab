@@ -45,5 +45,4 @@ void taylor(double* resultado_final) {
   
   printf("Hello from thread %d of %d -> soma= %.3f\n", local_rank, thread_count, local_result);
 
-
 }
