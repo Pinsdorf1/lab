@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
 # pragma omp parallel num_threads(thread_count)
   taylor(&resultado_final);
   
-  printf("ln(%ld) = %.3f\n", T, resultado_final);
+  printf("ln(T)(%ld) = %f\n", T, resultado_final);
   
   return 0;
 }
@@ -43,6 +43,6 @@ void taylor(double* resultado_final) {
 # pragma omp critical
   *resultado_final += local_result;
   
-  printf("Hello from thread %d of %d -> soma= %.3f\n", local_rank, thread_count, local_result);
+  printf("Hello from thread %d of %d, soma = %f\n", local_rank, thread_count, local_result);
 
 }
