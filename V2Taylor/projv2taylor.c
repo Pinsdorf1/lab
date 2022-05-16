@@ -10,7 +10,7 @@ Nicolas Pinsdorf | TIA: 32036108
 #include <stdlib.h>
 #include <omp.h>
 
-long int T = 1000000000;
+long int ln_T = 1000000000;
 
 void taylor(double* resultado_final);//A variávl resultado_final se trata de uma variável global
 
@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
 # pragma omp parallel num_threads(thread_count)
   taylor(&resultado_final);
   
-  printf("ln(T)(%ld) = %f\n", T, resultado_final);
+  printf("ln(T)(%ld) = %f\n", ln_T, resultado_final);
   
   return 0;
 }
