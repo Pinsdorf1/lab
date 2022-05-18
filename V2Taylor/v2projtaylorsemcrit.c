@@ -14,23 +14,23 @@ Nicolas Pinsdorf | TIA: 32036108
 
 long int ln_T = 1000000000;
 
-double taylor(double* resultado_final);
+double taylor(double* resultado_global);
 
 int main(int argc, char* argv[]) {
 
-  double resultado_final = 0;
+  double resultado_global = 0.0;
   int thread_count;
 
   thread_count = strtol(argv[1], NULL, 10);
 
 # pragma omp parallel for num_threads(thread_count) \
-    reduction(+: resultado_final)
+    reduction(+: resultado_global)
 
   for (long int i = 1; i <= ln_T; i++) {
-    resultado_final += 1 / (double) i;
+    resultado_global += 1 / (double) i;
   }
  
-  printf("ln(T)(%ld) = %f\n", ln_T, resultado_final);
+  printf("ln(%ld) = %f\n", ln_T, resultado_global);
   
   return 0;
 }
