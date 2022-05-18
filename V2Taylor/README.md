@@ -23,13 +23,23 @@ No repl.it os comandos serão o mesmo.
 Conforme o requisitado, seguindo o exemplo acima de 10 threads, teremos o seguinte print:
 
 Hello from thread 9 of 10, soma = 0.105361
+
 Hello from thread 6 of 10, soma = 0.154151
+
 Hello from thread 1 of 10, soma = 0.693147
+
 Hello from thread 3 of 10, soma = 0.287682
+
 Hello from thread 7 of 10, soma = 0.133531
+
 Hello from thread 2 of 10, soma = 0.405465
+
 Hello from thread 0 of 10, soma = 19.691044
+
 Hello from thread 4 of 10, soma = 0.223144
+
 Hello from thread 8 of 10, soma = 0.117783
+
 Hello from thread 5 of 10, soma = 0.182322
+
 ln(T)(1000000000) = 21.993629
