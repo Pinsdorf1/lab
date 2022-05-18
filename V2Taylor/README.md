@@ -1,10 +1,10 @@
-#- Como compilar o programa 
+#Como compilar o programa 
 
 Desta vez, utilizamos o Linux para realizar esta etapa, porém o repl.it também foi utilizado como suporte.
 
 Caso for testar no Linux, entre na pasta V2Taylor, e os códigos que utilizamos, utilizando o OpenMP, foi, v2projtaylor.c e v2projtaylorsemcrit.c e dentro do código há os comandos para compilar o código. 
 
-#- Como executar o programa 
+#Como executar o programa 
 
 Caso seja no Linux, utilize: 
 
@@ -18,7 +18,7 @@ Caso seja no Linux, utilize:
  
 No repl.it os comandos serão o mesmo. 
 
-#- Como comprovar que os resultados propostos foram alcançados.
+#Como comprovar que os resultados propostos foram alcançados.
 
 Conforme o requisitado, seguindo o exemplo acima de 10 threads, teremos o seguinte print:
 
