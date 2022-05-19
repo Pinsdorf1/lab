@@ -4,7 +4,6 @@
 #Nicolas Pinsdorf | TIA: 32036108
 from threading import Thread
 import concurrent.futures
-import time
 
 def Taylor1(ln1):
     S = 0
@@ -28,7 +27,7 @@ def Taylor3(ln3):
         Z += 1 / c
         c += 1
     return Z
-begin = time.time()
+  
 with concurrent.futures.ThreadPoolExecutor() as executor:
     print('Compilando código!')
     future = executor.submit(Taylor1, 50)
@@ -37,5 +36,3 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
     Resultado3 = Taylor3(25)
     Final_result = return_value + Resultado2
     print('Resultado =', Final_result)
-    end = time.time()
-    print('Speedup: ', end - begin, 'segundos')
