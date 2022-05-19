@@ -2,19 +2,15 @@
 
 Desta vez, utilizamos o Linux para realizar esta etapa, porém o repl.it também foi utilizado como suporte.
 
-Caso for testar no Linux, entre na pasta V2Taylor, e os códigos que utilizamos, utilizando o OpenMP, foi, v2projtaylor.c e v2projtaylorsemcrit.c e dentro do código há os comandos para compilar o código. 
+Caso for testar no Linux, entre na pasta V2Taylor, e os códigos que criamos, utilizando o OpenMP, foi, v2projtaylor.c e dentro do código há os comandos para compilar o código. 
 
 # Como executar o programa 
 
 Caso seja no Linux, utilize: 
 
  $gcc -g -Wall -fopenmp -o v2projtaylor v2projtaylor.c
- $gcc -g -Wall -fopenmp -o v2projtaylorsemcrit v2projtaylorsemcrit.c
  
-
  ./v2projtaylor 10 (e o número de threads que queira usar, exemplo que usamos foi 10)
-
- ./v2projtaylorsemcrit 10 
  
 No repl.it os comandos serão o mesmo. 
 
