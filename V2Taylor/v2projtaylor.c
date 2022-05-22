@@ -6,7 +6,7 @@ Nicolas Pinsdorf | TIA: 32036108
 */
 //Projeto V2 Série de Taylor, utilizando o OpenMP e # pragma omp critical
 //Comando para rodar o código: gcc -g -Wall -fopenmp -o nome_do_projeto nome_do_projeto.c
-// ./nome_do_projeto 6(Número de Threads)
+// ./nome_do_projeto 10(Número de Threads)
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
