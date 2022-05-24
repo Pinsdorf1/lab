@@ -15,7 +15,7 @@ int main(void)
     {
     sum+=1/(double)i;
     }
-  printf("Código que envolve a soma infinitesimal para solução de ln(10) em séries de Taylor\n");
+  printf("Código que envolve a soma infinitesimal para solução de ln(1000000000) em séries de Taylor\n");
   printf("O resultado é: %f", sum);
 
 return 0;
