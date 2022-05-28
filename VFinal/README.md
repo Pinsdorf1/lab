@@ -27,7 +27,7 @@ No repl.it os comandos serão o mesmo.
 
 # Como comprovar que os resultados propostos foram alcançados.
 
-Para esta entrega final, realizamos diversos testes com os códigos. Para o serial, verificamos até onde o código suportava o número máximo para o ln(T), que no caso foi 1000000000000( ou 1012). Portanto usamos o mesmo ln(T) para o código paralelo, porém realizamos uma série de testes, utilizando diferentes valores para os números de threads. Testamos com 2, 4, 6, 8 e 10 threads para ver qual teria o melhor tempo de execução. 
+Para esta entrega final, realizamos diversos testes com os códigos. Para o serial, verificamos até onde o código suportava o número máximo para o ln(T), que no caso foi 1000000000000( ou 10**12). Portanto usamos o mesmo ln(T) para o código paralelo, porém realizamos uma série de testes, utilizando diferentes valores para os números de threads. Testamos com 2, 4, 6, 8 e 10 threads para ver qual teria o melhor tempo de execução. 
 
 O teste que teve melhor execução foi com 2 threads: 
 
