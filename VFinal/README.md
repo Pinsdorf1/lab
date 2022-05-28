@@ -31,8 +31,6 @@ Para esta entrega final, realizamos diversos testes com os códigos. Para o seri
 
 O teste que teve melhor execução foi com 2 threads: 
 
-Hello from thread 0 of 2, soma= 26.598799
-
-Hello from thread 1 of 2, soma= 0.693147
-
+Hello from thread 0 of 2, soma = 26.598799
+Hello from thread 1 of 2, soma = 0.693147
 ln(T)(1000000000000) = 27.291946
