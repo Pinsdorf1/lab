@@ -21,7 +21,7 @@ Caso seja no Linux, utilize:
 
 ./somataylorserial 
 
-./vfinaltaylor 2 ou 4 ((e o número de threads que queira usar)
+./vfinaltaylor 2 ou 4 (e o número de threads que queira usar)
 
 No repl.it os comandos serão o mesmo. 
 
