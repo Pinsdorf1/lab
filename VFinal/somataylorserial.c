@@ -1,6 +1,7 @@
 /*Grupo:
   Calebe de Sa Ferreira | TIA: 3208816
   Mateus de Pasquali da Silva | TIA: 32086997
+  Nicolas Pinsdorf | TIA: 32036108
 */
 
 #include <stdio.h>
