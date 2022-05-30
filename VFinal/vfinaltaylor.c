@@ -2,7 +2,6 @@
 Grupo: 
 Calebe de Sa Ferreira | TIA: 32088116
 Mateus de Pasquali da Silva | TIA: 32086997
-Nicolas Pinsdorf | TIA: 32036108
 */
 //Projeto V2 Série de Taylor, utilizando o OpenMP e # pragma omp critical
 //Comando para rodar o código: gcc -g -Wall -fopenmp -o nome_do_projeto nome_do_projeto.c
